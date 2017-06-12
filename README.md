@@ -24,21 +24,40 @@ to select their sizes earlier in the journey to avoid viewing products not in th
 - when user selects a size then moves onto another listed URL display popup with unselected sizes once    
   again. Don't carry forward sizes across categories.
 
-### notes
-- click on minus sign to switch to plus sign and vice-versa
-- if minus-sign, then you\'re able to check boxes.
-- if one or more boxes are checked,subheading 1 changes to subheading 2
-- if switched from minus to plus, all checkboxes are removed and you\'re    
-  not able to check any boxes
-- if subheading2 on, then it also switches back to subheading1 (full reset) 
+### var <kbd>One</kbd>
+<kbd>desktop</kbd>
+- remove toggle
+- seatmap be default
+- cannot view best avail version
+<kbd>mobile</kbd>
+- remove find seats button
+- ***buy on map*** same functionality
 
-- updated existing project
--   iniState function sets popup to filter initial values
--   TroubleShoot board lists initial size value, index in array  and function execution context
--   pairing function keeps tracks of changes on filter and updates popup values
--   troubleshoot board keeps tracks of last clicked value, selector and function execution context
--   reverse pairing function, tracks events on popup to generate filter clicks
--   troubleshoot board tracks class adding and removing
+### var <kbd>Two</kbd>
+<kbd>desktop n mobile</kbd>
+- Find Seats For Me cta
+- Buy on Map cta
+
+### var <kbd>Three</kbd>
+<kbd>desktop n mobile</kbd>
+- Select Your Own
+- Best Available
+
+### var <kbd>Four</kbd>
+<kbd>desktop n mobile</kbd>
+- Find Seats For Me (text link)
+- Buy on Map (text link)
+
+### var <kbd>Five</kbd>
+<kbd>desktop</kbd>
+- Select Your Own (text link)
+- Best Available (text link)
+
+
+### notes
+- I need translations for Germany and Finland
+- Var 4 & 5 Only desktop text links (doesn't make sense to have text links on mobile ?)
+
 
 
 
