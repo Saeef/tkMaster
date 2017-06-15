@@ -1,5 +1,12 @@
+if(window.GPT_jstiming.Ab) {
+    window.s.b.style.opacity = 0;
+    window.tm_omn.b.style.opacity = 0;
+    window.s.b.children[3].children[1].style.opacity = 0;
+}
 (function(andRedEyelikeTicketMaster, undefined) {
     console.log('var 1');
+    debugger;
+    
     var $ = window.jQuery;
     var w = window.innerWidth;
     var SL = {};
@@ -7,6 +14,7 @@
         init: function() {
             this.pgCssDesktop();
             this.removeToggle();
+            this.lights();
         },
         //init
         pgCssDesktop: function() {
@@ -25,8 +33,6 @@
 
         removeToggle: function() {
             console.info('%c removeToggle \u221a', 'background:blue;color:white;');
-            //if(window.location.hostname === 'www.ticketmaster.de' && window.location.pathname === '/event/starlight-express-tickets/190419') {
-                //toggle button desktop
                 var tog = document.querySelector('.ticketpriceinfo__actions');    
                 tog.id = 'btog';
                 //find seats mobile
@@ -34,7 +40,6 @@
                     if (document.querySelectorAll('.cButton--icontext')[1]) {
                         document.querySelectorAll('.cButton--icontext')[1].id = 'noseats';
                     }//if
-
                 }//doMobi
 
                 //screen less than run doMobi
@@ -42,48 +47,24 @@
                     doMobi();
                 }
                    
-            window.addEventListener('resize', doMobi,false);
+            window.addEventListener('resize', doMobi,false);         
 
-            //}//if germany and hostname/path match
+        },//removeToggle
 
-            //else if(window.location.hostname === 'www.ticketmaster.fi' && window.location.pathname === '/event/peppi-pitkatossu-tickets/203697') {
-                //toggle button desktop
-                var tog = document.querySelector('.ticketpriceinfo__actions');    
-                tog.id = 'btog';
-                //find seats mobile
-                function doMobi() {
-                    if (document.querySelectorAll('.cButton--icontext')[1]) {
-                        document.querySelectorAll('.cButton--icontext')[1].id = 'noseats';
-                    }//if
-
-                }//doMobi
-
-                //screen less than run doMobi
-                if(w <= 650) {
-                    doMobi();
-                }
-
-            window.addEventListener('resize', doMobi,false);
-
-            //}//if finland and hostname/path match
-
-
-        }//removeToggle
+        lights: function() {
+             console.info('%c lights \u221a', 'background:blue;color:white;');
+             if(window.GPT_jstiming.Ab) {
+                window.s.b.style.opacity = 1;
+                window.tm_omn.b.style.opacity = 1;
+                window.s.b.children[3].children[1].style.opacity = 1;
+             }
+        }
        
+    };//SL.andRedEyelikeTicketMaster
 
-        
-
-    };
-    //SL.andRedEyelikeTicketMaster
-
-    (function() {
-
-       
+    (function() { 
             console.info('load event');
             SL.andRedEyelikeTicketMaster.init();
-       
-        
-
     })();
 
 }.call(window.andRedEyelikeTicketMaster || {}));
