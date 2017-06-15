@@ -25,7 +25,7 @@
 
         removeToggle: function() {
             console.info('%c removeToggle \u221a', 'background:blue;color:white;');
-            if(window.location.hostname === 'www.ticketmaster.de' && window.location.pathname === '/event/starlight-express-tickets/190419') { 
+            //if(window.location.hostname === 'www.ticketmaster.de' && window.location.pathname === '/event/starlight-express-tickets/190419') { 
                 console.log('germany');          
                 
                     if (document.querySelectorAll('.ticketpriceinfo__actions').length > 0) {
@@ -74,10 +74,10 @@
                 
                        
         
-            }//if germany and hostname/path match
+            //}//if germany and hostname/path match
 
 
-            else if(window.location.hostname === 'www.ticketmaster.fi' && window.location.pathname === '/event/peppi-pitkatossu-tickets/203697') {
+            //else if(window.location.hostname === 'www.ticketmaster.fi' && window.location.pathname === '/event/peppi-pitkatossu-tickets/203697') {
                 
                if (document.querySelectorAll('.ticketpriceinfo__actions').length > 0) {
                         console.log('tickets1');
@@ -123,7 +123,7 @@
                     }//else if
 
 
-            }//if finland and hostname/path match
+            //}//if finland and hostname/path match
 
 
 
@@ -136,11 +136,16 @@
     };
     //SL.andRedEyelikeTicketMaster
 
-    (function() {
+    $(function() {
+         console.log('var 5');
+         SL.andRedEyelikeTicketMaster.init();
+    });
 
-        setTimeout(function() {
-            SL.andRedEyelikeTicketMaster.init();
-        }, 10);
+    (function() {
+       
+        
+           
+       
 
     })();
 

@@ -59,6 +59,22 @@ to select their sizes earlier in the journey to avoid viewing products not in th
 - Var 4 & 5 Only desktop text links (doesn't make sense to have text links on mobile ?)
 
 
+variation 1
+https://marketer.monetate.net/control/preview/4138/LPRSM038VGGU1M2RB6BYGRV9ZTQBKRH6/kr15-edp-ism-seatmap-toggle-2
+
+variation 2
+https://marketer.monetate.net/control/preview/4138/M0XKB050UQ37LAAPPF8NV4PL5I9KPMXW/kr15-edp-ism-seatmap-toggle-2
+
+variation 3
+https://marketer.monetate.net/control/preview/4138/KDPTKC7V97WVN6GFDL3DM1IT8U2F8EGR/kr15-edp-ism-seatmap-toggle-2
+variation 4
+https://marketer.monetate.net/control/preview/4138/Z4CB6PPE6CRT8JIWL67TLWB41GX2E5CP/kr15-edp-ism-seatmap-toggle-2
+
+variation 5
+https://marketer.monetate.net/control/preview/4138/PB8WQWDTNYG3NVXZB641BIA487DVO5SR/kr15-edp-ism-seatmap-toggle-2
+
+
+
 
 
 

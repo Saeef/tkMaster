@@ -1,0 +1,19 @@
+body{color:black;font-family:Arial;font-size:12pt;background:white}a:link,a:visited{color:#000!important;background:transparent;font-weight:bold;text-decoration:none}
+p{margin:1em 0 0}h2{font-family:Arial;color:#000!important}h3{font-size:16px;font-weight:bold;margin-top:20px}
+h4#summaryHeader{font-size:24px}#summaryVenue a{color:#000}#head{height:auto;margin:0}
+#head_tm_black,#head_tm_white{height:0}#head_tm_black a,#head_tm_white a{margin-top:0}
+#mainContent{width:100%;margin:0;float:none}.boxStyle{border:0;border-top:2px solid #000}
+#order_thank{font-size:16pt;font-weight:bold;padding:10px;margin:0;display:block}
+.orderDetailsContainer.shrink{max-height:2000px!important}.expandedSubTable.hidden{display:block!important}
+.ticketDetails{margin-top:20px;padding-top:20px!important;border-top:1px solid #000}
+.column1,#orderConfirmed .ticketDetails,#orderConfirmed #orderDetailsContainer h3,#summaryHeader,#orderConfirmed .column1{padding:0}
+#orderConfirmed .fees li{width:100%;margin-left:0}#orderConfirmed #orderDetailsContainer h4,#orderConfirmed #orderDetailsContainer .title{width:100%}
+#orderConfirmed #orderDetailsContainer .title{padding-left:0}#orderConfirmed .column1{width:28%;padding-left:20px}
+#orderConfirmed .column2{width:30%}#orderConfirmed .column4,#orderConfirmed .column3.deliveryVal{text-align:right;float:left}
+#orderConfirmed .column3.deliveryVal,#orderConfirmed .column3.paymentVal{width:30%}
+#num_of_tickets,.delivery h3,.payment h3{border-top:1px solid #666;padding-top:10px!important}
+#amexRedeemPoints .amexSecondChance,#amexRedeemPoints .amexSteps{display:none}#amexRedeemPoints .col{width:700px;display:inline}
+#amexRedeemPoints .imgCol{display:inline;width:160px}#amexRedeemPoints .imgCol img{border:1px solid #ccc}
+#amexRedeemPoints li{list-style-type:disc}#deliveryLink,#orderConfirmed #orderDetailsContainer .subTotal,#searchForm,#orderConfirmed .printPageLink,#languages_module,#footer,#head,.mainheader,.rightPanel,.top-links,.main-navigation,.lang,.icon,.icon-tick,.noPrint,.textLink,.ad,.ad2,.adslot{display:none}
+.noScreen{display:block!important;clear:both;margin-bottom:20px}#orderDetailsContainer{display:block!important}
+#scandicModule,#nordicChoice,#nordicchoice__header,.nordicchoice__header,.nordicchoice{display:none}
