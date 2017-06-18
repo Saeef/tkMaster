@@ -24,7 +24,7 @@ to select their sizes earlier in the journey to avoid viewing products not in th
 - when user selects a size then moves onto another listed URL display popup with unselected sizes once    
   again. Don't carry forward sizes across categories.
 
-### var <kbd>One</kbd>
+## var <kbd>One</kbd>
 <kbd>desktop</kbd>
 - remove toggle
 - seatmap be default
@@ -33,22 +33,22 @@ to select their sizes earlier in the journey to avoid viewing products not in th
 - remove find seats button
 - ***buy on map*** same functionality
 
-### var <kbd>Two</kbd>
+## var <kbd>Two</kbd>
 <kbd>desktop n mobile</kbd>
 - Find Seats For Me cta
 - Buy on Map cta
 
-### var <kbd>Three</kbd>
+## var <kbd>Three</kbd>
 <kbd>desktop n mobile</kbd>
 - Select Your Own
 - Best Available
 
-### var <kbd>Four</kbd>
+## var <kbd>Four</kbd>
 <kbd>desktop n mobile</kbd>
 - Find Seats For Me (text link)
 - Buy on Map (text link)
 
-### var <kbd>Five</kbd>
+## var <kbd>Five</kbd>
 <kbd>desktop</kbd>
 - Select Your Own (text link)
 - Best Available (text link)
@@ -68,24 +68,27 @@ variation 2 Improved
 https://marketer.monetate.net/control/preview/4138/BBB1YJZLEPRYOVVIQKMP8GFRBYUJMUOK/kr15-edp-ism-seatmap-toggle-2
 
 
-variation 3
+variation 3 Improved
 https://marketer.monetate.net/control/preview/4138/KDPTKC7V97WVN6GFDL3DM1IT8U2F8EGR/kr15-edp-ism-seatmap-toggle-2
 
-variation 4
+variation 4 Improved
 https://marketer.monetate.net/control/preview/4138/Z4CB6PPE6CRT8JIWL67TLWB41GX2E5CP/kr15-edp-ism-seatmap-toggle-2
 
-variation 5
+variation 5 Improved
 https://marketer.monetate.net/control/preview/4138/PB8WQWDTNYG3NVXZB641BIA487DVO5SR/kr15-edp-ism-seatmap-toggle-2
 
 
 
-https://marketer.monetate.net/control/preview/4138/57OFRUU2T9TTDZXE1S58EAR4YU6UIPBM/kr15-edp-ism-seatmap-toggle-2
 
 
 
 
-<kbd>initState function</kbd> :rocket:        
-![](/images/iniStatefn.png) 
+
+kbd>desktop</kbd> :rocket:        
+![](/images/var1-desk.png) 
+
+<kbd>mobile</kbd> :rocket:        
+![](/images/var1-mob.png) 
 
 
 <kbd>pairing function</kbd> :rocket:          
