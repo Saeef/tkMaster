@@ -57,8 +57,10 @@ to select their sizes earlier in the journey to avoid viewing products not in th
 ### notes
 - I need translations for Germany and Finland
 - Var 4 & 5 Only desktop text links (doesn't make sense to have text links on mobile ?)
-
- window.document.children[0].attributes[1].value = "en-DE";
+- fixed js loading issue re svg img
+- added switch statement/ function for languages
+- Monetate timing issue dealt from platform itself (adding masking to variation)
+ 
 
 
 variation 1 Improved
