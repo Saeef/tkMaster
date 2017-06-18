@@ -32,13 +32,13 @@
             console.log('removeToggle');
             
             console.info('%c removeToggle \u221a', 'background:blue;color:white;');
-            //if(window.location.hostname === 'www.ticketmaster.de' && window.location.pathname === '/event/starlight-express-tickets/190419') {                       
+            if(window.location.hostname === 'www.ticketmaster.de' && window.location.pathname === '/event/starlight-express-tickets/190419') {                       
 
                 if (document.querySelectorAll('.ticketpriceinfo__actions').length > 0) {
                     document.getElementById('ticketselection').addEventListener('DOMContentLoaded', tickets1,false);
                     
                     function tickets1() { 
-                       document.querySelectorAll('.ticketpriceinfo__actions')[0].children[0].children[0].innerHTML = ' <svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" class="icon__search2 "> <g stroke-width="1.6" stroke="currentColor" fill="none"> <path d="M12.52 6.76A5.76 5.76 0 1 0 1 6.76a5.76 5.76 0 0 0 11.52 0z" style="fill-rule: evenodd;"></path> <path d="M16.214 16.214L11 11" stroke-linecap="round" style="fill-rule: evenodd;"></path> </g> </svg> Select Your Own ';    
+                       document.querySelectorAll('.ticketpriceinfo__actions')[0].children[0].children[0].innerHTML = ' <svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" class="icon__search2 "> <g stroke-width="1.6" stroke="currentColor" fill="none"> <path d="M12.52 6.76A5.76 5.76 0 1 0 1 6.76a5.76 5.76 0 0 0 11.52 0z" style="fill-rule: evenodd;"></path> <path d="M16.214 16.214L11 11" stroke-linecap="round" style="fill-rule: evenodd;"></path> </g> </svg> Plätze selber auswählen ';    
 
                     }tickets1();
 
@@ -47,19 +47,19 @@
                 else if (document.querySelectorAll('#modeIsm.cButton--icontext').length > 0) {
                     document.querySelector('.edp__section_header').addEventListener('DOMContentLoaded', tickets2,false);   
                     function tickets2() {
-                         document.querySelectorAll('#modeIsm.cButton--icontext')[0].children[0].children[1].innerText = "Best Available";
+                         document.querySelectorAll('#modeIsm.cButton--icontext')[0].children[0].children[1].innerText = "Bestplatzbuchung";
                     }tickets2();   
 
                 }
                                 
-            //}//if germany and hostname/path match
+            }//if germany and hostname/path match
 
-            //else if(window.location.hostname === 'www.ticketmaster.fi' && window.location.pathname === '/event/peppi-pitkatossu-tickets/203697') {
+            else if(window.location.hostname === 'www.ticketmaster.fi' && window.location.pathname === '/event/peppi-pitkatossu-tickets/203697') {
                 
                 if (document.querySelectorAll('.ticketpriceinfo__actions').length > 0) {
                     document.getElementById('ticketselection').addEventListener('DOMContentLoaded', tickets1,false);
                     function tickets1() { 
-                       document.querySelectorAll('.ticketpriceinfo__actions')[0].children[0].children[0].innerHTML = ' <svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" class="icon__search2 "> <g stroke-width="1.6" stroke="currentColor" fill="none"> <path d="M12.52 6.76A5.76 5.76 0 1 0 1 6.76a5.76 5.76 0 0 0 11.52 0z" style="fill-rule: evenodd;"></path> <path d="M16.214 16.214L11 11" stroke-linecap="round" style="fill-rule: evenodd;"></path> </g> </svg> Select Your Own ';    
+                       document.querySelectorAll('.ticketpriceinfo__actions')[0].children[0].children[0].innerHTML = ' <svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" class="icon__search2 "> <g stroke-width="1.6" stroke="currentColor" fill="none"> <path d="M12.52 6.76A5.76 5.76 0 1 0 1 6.76a5.76 5.76 0 0 0 11.52 0z" style="fill-rule: evenodd;"></path> <path d="M16.214 16.214L11 11" stroke-linecap="round" style="fill-rule: evenodd;"></path> </g> </svg> Valitse paikat itse ';    
 
                     }tickets1();
 
@@ -68,12 +68,12 @@
                 else if (document.querySelectorAll('#modeIsm.cButton--icontext').length > 0) {
                     document.querySelector('.edp__section_header').addEventListener('DOMContentLoaded', tickets2,false);   
                     function tickets2() {
-                         document.querySelectorAll('#modeIsm.cButton--icontext')[0].children[0].children[1].innerText = "Best Available";
+                         document.querySelectorAll('#modeIsm.cButton--icontext')[0].children[0].children[1].innerText = "Parhaat vapaat";
                     }tickets2();   
 
                 }    
 
-            //}//if finland and hostname/path match
+            }//if finland and hostname/path match
 
         }//removeToggle        
 

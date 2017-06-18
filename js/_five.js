@@ -25,7 +25,7 @@
 
         removeToggle: function() {
             console.info('%c removeToggle \u221a', 'background:blue;color:white;');
-            //if(window.location.hostname === 'www.ticketmaster.de' && window.location.pathname === '/event/starlight-express-tickets/190419') { 
+            if(window.location.hostname === 'www.ticketmaster.de' && window.location.pathname === '/event/starlight-express-tickets/190419') { 
                 console.log('germany');          
                 
                     if (document.querySelectorAll('.ticketpriceinfo__actions').length > 0) {
@@ -38,7 +38,7 @@
                                 console.log('function 1'); 
                                 //button
                                 var s = document.querySelectorAll('.ticketpriceinfo__actions button')[0];
-                                s.innerText = "Select Your Own";
+                                s.innerText = "Plätze selber auswählen";
                                 s.style.border = 'none';
                                 //icon
                                 var b = s.children[0].children[0];
@@ -64,7 +64,7 @@
                                 
                                  var x = document.getElementById('modeIsm');
                                  x.className = '';
-                                 x.innerHTML = '<a id="modeIsm" href="#">Buy on Map</a>';
+                                 x.innerHTML = '<a id="modeIsm" href="#">Im Saalplan kaufen</a>';
                             }tickets2();
                              
                         }//if 880       
@@ -74,10 +74,10 @@
                 
                        
         
-            //}//if germany and hostname/path match
+            }//if germany and hostname/path match
 
 
-            //else if(window.location.hostname === 'www.ticketmaster.fi' && window.location.pathname === '/event/peppi-pitkatossu-tickets/203697') {
+            else if(window.location.hostname === 'www.ticketmaster.fi' && window.location.pathname === '/event/peppi-pitkatossu-tickets/203697') {
                 
                if (document.querySelectorAll('.ticketpriceinfo__actions').length > 0) {
                         console.log('tickets1');
@@ -89,7 +89,8 @@
                                 console.log('function 1'); 
                                 //button
                                 var s = document.querySelectorAll('.ticketpriceinfo__actions button')[0];
-                                s.innerText = "Select Your Own";
+                                s.innerText = "Valitse paikat itse
+";
                                 s.style.border = 'none';
                                 //icon
                                 var b = s.children[0].children[0];
@@ -115,7 +116,7 @@
                                 
                                  var x = document.getElementById('modeIsm');
                                  x.className = '';
-                                 x.innerHTML = '<a id="modeIsm" href="#">Buy on Map</a>';
+                                 x.innerHTML = '<a id="modeIsm" href="#">Parhaat vapaat</a>';
                             }tickets2();
                              
                         }//if 880       
@@ -123,7 +124,7 @@
                     }//else if
 
 
-            //}//if finland and hostname/path match
+            }//if finland and hostname/path match
 
 
 

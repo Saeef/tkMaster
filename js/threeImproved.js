@@ -104,19 +104,19 @@
             switch(window.document.children[0].attributes[1].value) {
                 case 'de-DE':
                 window.document.children[0].setAttribute('lang', 'de-DE');
-                message = "Plätze vorschlagen lassen";
+                message = "Plätze selber auswählen";
                 console.log('german');
                 break;
 
                 case 'fi-FI':
                 window.document.children[0].setAttribute('lang', 'fi-FI');
-                message = "Hae minulle paikat";
+                message = "Valitse paikat itse";
                 console.log('finnish');
                 break;
                 
                 default:
                 window.document.children[0].setAttribute('lang', 'en-EN');
-                message = "Find Seats For Me";
+                message = "Select Your Own";
                 console.log('english default');
                 break;
 
@@ -129,19 +129,19 @@
             switch(window.document.children[0].attributes[1].value) {
                 case 'de-DE':
                 window.document.children[0].setAttribute('lang', 'de-DE');
-                message = "Im Saalplan kaufen";
+                message = "Bestplatzbuchung";
                 console.log('german');
                 break;
 
                 case 'fi-FI':
                 window.document.children[0].setAttribute('lang', 'fi-FI');
-                message = "Osta pohjakartalta";
+                message = "Parhaat vapaat";
                 console.log('finnish');
                 break;
 
                 default:
                 window.document.children[0].setAttribute('lang', 'en-EN');
-                message = "Buy on Map";
+                message = "Best Available";
                 console.log('default english');
                 break;
 

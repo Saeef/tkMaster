@@ -42,6 +42,7 @@
                                 //icon
                                 var b = s.children[0].children[0];
                                 b.style.display = 'none';
+                                var a = document.querySelectorAll('.ticketpriceinfo__actions')[0].children[0].children[0].innerHTML = ' "<svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" class="icon__search2 " style="display: none;"><g stroke-width="1.6" stroke="currentColor" fill="none"><path d="M12.52 6.76A5.76 5.76 0 1 0 1 6.76a5.76 5.76 0 0 0 11.52 0z" style="fill-rule: evenodd;"></path><path d="M16.214 16.214L11 11" stroke-linecap="round" style="fill-rule: evenodd;"></path></g></svg><!-- react-text: 18 -->Plätze vorschlagen lassen<!-- /react-text -->"  ';
                                   
 
                             }tickets1();
@@ -63,7 +64,7 @@
                                 
                                  var x = document.getElementById('modeIsm');
                                  x.className = '';
-                                 x.innerHTML = '<a id="modeIsm" href="#">Buy on Map</a>';
+                                 x.innerHTML = '<a id="modeIsm" href="#">Im Saalplan kaufen</a>';
                             }tickets2();
                              
                         }//if 880       
@@ -113,7 +114,11 @@
                                 
                                  var x = document.getElementById('modeIsm');
                                  x.className = '';
-                                 x.innerHTML = '<a id="modeIsm" href="#">Buy on Map</a>';
+                                 x.innerHTML = '<a id="modeIsm" href="#">Osta pohjakartalta</a>';
+
+                                 var a = document.querySelectorAll('.ticketpriceinfo__actions')[0].children[0].children[0].innerHTML = ' "<svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" class="icon__search2 " style="display: none;"><g stroke-width="1.6" stroke="currentColor" fill="none"><path d="M12.52 6.76A5.76 5.76 0 1 0 1 6.76a5.76 5.76 0 0 0 11.52 0z" style="fill-rule: evenodd;"></path><path d="M16.214 16.214L11 11" stroke-linecap="round" style="fill-rule: evenodd;"></path></g></svg><!-- react-text: 18 -->Osta pohjakartalta<!-- /react-text -->"  ';
+
+                                 
                             }tickets2();
                              
                         }//if 880       
