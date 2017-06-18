@@ -68,24 +68,27 @@ variation 2 Improved
 https://marketer.monetate.net/control/preview/4138/BBB1YJZLEPRYOVVIQKMP8GFRBYUJMUOK/kr15-edp-ism-seatmap-toggle-2
 
 
-variation 3
+variation 3 Improved
 https://marketer.monetate.net/control/preview/4138/KDPTKC7V97WVN6GFDL3DM1IT8U2F8EGR/kr15-edp-ism-seatmap-toggle-2
 
-variation 4
+variation 4 Improved
 https://marketer.monetate.net/control/preview/4138/Z4CB6PPE6CRT8JIWL67TLWB41GX2E5CP/kr15-edp-ism-seatmap-toggle-2
 
-variation 5
+variation 5 Improved
 https://marketer.monetate.net/control/preview/4138/PB8WQWDTNYG3NVXZB641BIA487DVO5SR/kr15-edp-ism-seatmap-toggle-2
 
 
 
-https://marketer.monetate.net/control/preview/4138/57OFRUU2T9TTDZXE1S58EAR4YU6UIPBM/kr15-edp-ism-seatmap-toggle-2
 
 
 
 
-<kbd>initState function</kbd> :rocket:        
-![](/images/iniStatefn.png) 
+
+kbd>desktop</kbd> :rocket:        
+![](/images/var1-desk.png) 
+
+<kbd>mobile</kbd> :rocket:        
+![](/images/var1-mob.png) 
 
 
 <kbd>pairing function</kbd> :rocket:          
