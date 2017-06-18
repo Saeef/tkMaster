@@ -24,7 +24,7 @@ to select their sizes earlier in the journey to avoid viewing products not in th
 - when user selects a size then moves onto another listed URL display popup with unselected sizes once    
   again. Don't carry forward sizes across categories.
 
-### var <kbd>One</kbd>
+## var <kbd>One</kbd>
 <kbd>desktop</kbd>
 - remove toggle
 - seatmap be default
@@ -33,22 +33,22 @@ to select their sizes earlier in the journey to avoid viewing products not in th
 - remove find seats button
 - ***buy on map*** same functionality
 
-### var <kbd>Two</kbd>
+## var <kbd>Two</kbd>
 <kbd>desktop n mobile</kbd>
 - Find Seats For Me cta
 - Buy on Map cta
 
-### var <kbd>Three</kbd>
+## var <kbd>Three</kbd>
 <kbd>desktop n mobile</kbd>
 - Select Your Own
 - Best Available
 
-### var <kbd>Four</kbd>
+## var <kbd>Four</kbd>
 <kbd>desktop n mobile</kbd>
 - Find Seats For Me (text link)
 - Buy on Map (text link)
 
-### var <kbd>Five</kbd>
+## var <kbd>Five</kbd>
 <kbd>desktop</kbd>
 - Select Your Own (text link)
 - Best Available (text link)
