@@ -61,21 +61,22 @@ to select their sizes earlier in the journey to avoid viewing products not in th
  window.document.children[0].attributes[1].value = "en-DE";
 
 
-variation 1 Improved
-https://marketer.monetate.net/control/preview/4138/LLQSE7RA0945TZC91I5L189A8GUKCFR8/kr15-edp-ism-seatmap-toggle-2
+1. var 1 improv
 
-variation 2 Improved
-https://marketer.monetate.net/control/preview/4138/BBB1YJZLEPRYOVVIQKMP8GFRBYUJMUOK/kr15-edp-ism-seatmap-toggle-2
+https://marketer.monetate.net/control/preview/4138/EQ9UY9EWJ45BZWLW02RKRSB0BXXZAFX1/kr15-edp-ism-seatmap-toggle-2
 
+2. var 2 improv
+https://marketer.monetate.net/control/preview/4138/Z1X6IMHL9LTEO3590DFHHFXG6RI45KFJ/kr15-edp-ism-seatmap-toggle-2
 
-variation 3 Improved
-https://marketer.monetate.net/control/preview/4138/KDPTKC7V97WVN6GFDL3DM1IT8U2F8EGR/kr15-edp-ism-seatmap-toggle-2
+3. var 3 improv
+https://marketer.monetate.net/control/preview/4138/WDFKN1VEAEAUM69C8PUEI6E4X2OS281A/kr15-edp-ism-seatmap-toggle-2b
 
-variation 4 Improved
-https://marketer.monetate.net/control/preview/4138/Z4CB6PPE6CRT8JIWL67TLWB41GX2E5CP/kr15-edp-ism-seatmap-toggle-2
+4. var 4 improv
+https://marketer.monetate.net/control/preview/4138/9LH460TB89IGZMATVP3BA8XDSJ80TLYU/kr15-edp-ism-seatmap-toggle-2
 
-variation 5 Improved
-https://marketer.monetate.net/control/preview/4138/PB8WQWDTNYG3NVXZB641BIA487DVO5SR/kr15-edp-ism-seatmap-toggle-2
+5. var 5 improv
+
+https://marketer.monetate.net/control/preview/4138/50W9RDE5O2PRTL4UASP5GO5MIX03QV5G/kr15-edp-ism-seatmap-toggle-2
 
 
 
