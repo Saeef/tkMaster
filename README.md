@@ -55,7 +55,7 @@ to select their sizes earlier in the journey to avoid viewing products not in th
 
 
 ### notes
-- I need translations for Germany and Finland
+- added translations for Germany and Finland
 - added switch statement/ function for languages
  
 
